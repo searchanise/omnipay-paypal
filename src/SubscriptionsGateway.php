@@ -52,4 +52,24 @@ class SubscriptionsGateway extends RestGateway
     {
         return $this->createRequest('\Omnipay\PayPal\Message\SubscriptionsGetSubscriptionRequest', $parameters);
     }
+
+    public function suspendSubscription(array $parameters = [])
+    {
+        return $this->createRequest('\Omnipay\PayPal\Message\SubscriptionsSuspendSubscriptionRequest', $parameters);
+    }
+
+    public function activateSubscription(array $parameters = array())
+    {
+        return $this->createRequest('\Omnipay\PayPal\Message\SubscriptionsActivateSubscriptionRequest', $parameters);
+    }
+
+    public function cancelSubscription(array $parameters = [])
+    {
+        return $this->createRequest('\Omnipay\PayPal\Message\SubscriptionsCancelSubscriptionRequest', $parameters);
+    }
+
+    public function searchTransaction(array $parameters = [])
+    {
+        return $this->createRequest('\Omnipay\PayPal\Message\SubscriptionsSearchTransactionRequest', $parameters);
+    }
 }
