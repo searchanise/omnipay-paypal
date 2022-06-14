@@ -131,6 +131,27 @@ class SubscriptionsCreateSubscriptionRequest extends AbstractRestRequest
     }
 
     /**
+     * Get subscription start time
+     *
+     * @return \DateTime
+     */
+    public function getStartTime()
+    {
+        return $this->getParameter('start_time');
+    }
+
+    /**
+     * Set the subscription start time
+     *
+     * @param \DateTime $value
+     * @return SubscriptionsCreateSubscriptionRequest provides a fluent interface
+     */
+    public function setStartTime(\DateTime $value)
+    {
+        return $this->setParameter('start_time', $value);
+    }
+
+    /**
      * Get the return url
      *
      * @return string
@@ -191,6 +212,12 @@ class SubscriptionsCreateSubscriptionRequest extends AbstractRestRequest
                 'cancel_url' => $this->getCancelUrl(),
             ],
         ];
+
+        $startTime = $this->getStartTime();
+
+        if ($startTime) {
+            $data['start_time'] = $startTime->format('c');
+        }
 
         return $data;
     }
