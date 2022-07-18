@@ -1,0 +1,12 @@
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 453
+Connection: keep-alive
+Date: Sun, 17 Jul 2022 16:31:29 GMT
+Application_id: APP-80W284485P519543T
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Caller_acct_num: 2RE8YBRDHXPCS
+Paypal-Debug-Id: ec925766ea9a7
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+{"status":"APPROVAL_PENDING","id":"I-H3HY7MXYJMEV","create_time":"2022-07-17T16:31:29Z","links":[{"href":"https://www.sandbox.paypal.com/webapps/billing/subscriptions?ba_token=BA-2A742345B46363206","rel":"approve","method":"GET"},{"href":"https://api.sandbox.paypal.com/v1/billing/subscriptions/I-H3HY7MXYJMEV","rel":"edit","method":"PATCH"},{"href":"https://api.sandbox.paypal.com/v1/billing/subscriptions/I-H3HY7MXYJMEV","rel":"self","method":"GET"}]}

@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 621
+Connection: keep-alive
+Date: Sun, 17 Jul 2022 17:02:25 GMT
+Application_id: APP-80W284485P519543T
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Caller_acct_num: 2RE8YBRDHXPCS
+Paypal-Debug-Id: d54e9ebc7c0ce
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+{"status":"ACTIVE","id":"I-H3HY7MXYJMEV","plan_id":"P-64D673538H963814RMLKDKZI","start_time":"2022-11-01T00:00:00Z","quantity":"1","subscriber":{"email_address":"customer@example.com"},"create_time":"2022-07-17T16:31:29Z","plan_overridden":false,"links":[{"href":"https://api.sandbox.paypal.com/v1/billing/subscriptions/I-H3HY7MXYJMEV","rel":"edit","method":"PATCH"},{"href":"https://api.sandbox.paypal.com/v1/billing/subscriptions/I-H3HY7MXYJMEV","rel":"self","method":"GET"},{"href":"https://www.sandbox.paypal.com/webapps/billing/subscriptions?ba_token=BA-2A742345B46363206","rel":"approve","method":"GET"}]}
