@@ -1,0 +1,12 @@
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 694
+Connection: keep-alive
+Date: Sun, 17 Jul 2022 16:14:29 GMT
+Application_id: APP-80W284485P519543T
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Caller_acct_num: 2RE8YBRDHXPCS
+Paypal-Debug-Id: 1177e3cf63d1
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+{"id":"P-64D673538H963814RMLKDKZI","product_id":"PROD-16025810AX838144E","name":"Video Streaming Service Plan","status":"ACTIVE","description":"Video Streaming Service basic plan","usage_type":"LICENSED","create_time":"2022-07-17T16:14:29Z","links":[{"href":"https://api.sandbox.paypal.com/v1/billing/plans/P-64D673538H963814RMLKDKZI","rel":"self","method":"GET","encType":"application/json"},{"href":"https://api.sandbox.paypal.com/v1/billing/plans/P-64D673538H963814RMLKDKZI","rel":"edit","method":"PATCH","encType":"application/json"},{"href":"https://api.sandbox.paypal.com/v1/billing/plans/P-64D673538H963814RMLKDKZI/deactivate","rel":"self","method":"POST","encType":"application/json"}]}

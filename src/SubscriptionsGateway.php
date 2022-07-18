@@ -12,17 +12,6 @@ class SubscriptionsGateway extends RestGateway
         return 'PayPal Subscriptions';
     }
 
-    public function getDefaultParameters()
-    {
-        return array(
-            'clientId'     => '',
-            'secret'       => '',
-            'token'        => '',
-            'productId'    => '',
-            'testMode'     => false,
-        );
-    }
-
     public function getProductId()
     {
         return $this->getParameter('productId');

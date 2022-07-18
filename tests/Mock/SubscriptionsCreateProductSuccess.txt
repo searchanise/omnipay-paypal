@@ -1,0 +1,12 @@
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 372
+Connection: keep-alive
+Date: Sun, 17 Jul 2022 14:55:44 GMT
+Application_id: APP-80W284485P519543T
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Caller_acct_num: 2RE8YBRDHXPCS
+Paypal-Debug-Id: 6dced6d796760
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+{"id":"PROD-16025810AX838144E","name":"Test product","description":"testproductdescription123","create_time":"2022-07-17T14:55:44Z","links":[{"href":"https://api.sandbox.paypal.com/v1/catalogs/products/PROD-16025810AX838144E","rel":"self","method":"GET"},{"href":"https://api.sandbox.paypal.com/v1/catalogs/products/PROD-16025810AX838144E","rel":"edit","method":"PATCH"}]}
