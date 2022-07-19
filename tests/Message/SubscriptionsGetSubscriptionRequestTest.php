@@ -13,6 +13,10 @@ class SubscriptionsGetSubscriptionRequestTest extends TestCase
         $client = $this->getHttpClient();
         $request = $this->getHttpRequest();
         $this->request = new SubscriptionsGetSubscriptionRequest($client, $request);
+
+        $this->request->initialize([
+            'subscription_id' => 'TEST123',
+        ]);
     }
 
     public function testEndpoint()

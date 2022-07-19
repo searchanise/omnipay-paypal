@@ -52,7 +52,7 @@ class SubscriptionsGetSubscriptionRequest extends AbstractRestRequest
      */
     public function getEndpoint()
     {
-        return parent::getEndpoint() . '/billing/subscriptions/' . $this->getTransactionReference(); 
+        return parent::getEndpoint() . '/billing/subscriptions/' . $this->subscriptionId; 
     }
 
     protected function getHttpMethod()
