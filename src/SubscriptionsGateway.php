@@ -32,6 +32,16 @@ class SubscriptionsGateway extends RestGateway
         return $this->createRequest('\Omnipay\PayPal\Message\SubscriptionsCreatePlanRequest', $parameters);
     }
 
+    public function updatePlan(array $parameters = [])
+    {
+        return $this->createRequest('\Omnipay\PayPal\Message\SubscriptionsUpdatePlanRequest', $parameters);
+    }
+
+    public function getPlan(array $parameters = [])
+    {
+        return $this->createRequest('\Omnipay\PayPal\Message\SubscriptionsGetPlanRequest', $parameters);
+    }
+
     public function createSubscription(array $parameters = [])
     {
         return $this->createRequest('\Omnipay\PayPal\Message\SubscriptionsCreateSubscriptionRequest', $parameters);

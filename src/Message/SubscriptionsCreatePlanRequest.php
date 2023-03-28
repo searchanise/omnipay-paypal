@@ -218,7 +218,7 @@ class SubscriptionsCreatePlanRequest extends AbstractRestRequest
             ],
             'payment_preferences' => $this->getPaymentPreferences() ?: [
                 'auto_bill_outstanding' => true,
-                'payment_failure_threshold' => 0
+                'payment_failure_threshold' => 1
             ],
             'taxes' => $this->getTaxes() ?: [
                 'percentage' => '0',
